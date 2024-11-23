@@ -8,7 +8,7 @@ document.getElementById('submit0').addEventListener('click', () => {
             url: server
         },
         response => {
-            document.getElementById('content').innerHTML = response;
+            document.getElementById('content').innerText = response;
         }
     );
 });
